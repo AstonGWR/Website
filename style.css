@@ -1,0 +1,47 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+}
+
+div {
+    border: 2px solid black;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #e9a800;
+
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.one,
+.header {
+    background-color: black;
+}
+
+.header-logo {
+    display: flex;
+}
+
+img {
+    height: 125px;
+    padding: 8px 15px;
+}
