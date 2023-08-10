@@ -3,13 +3,15 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "roboto", sans-serif;
+    text-align: center;
 }
 
+/*
 div {
     border: 2px solid black;
 
 }
-
+*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -32,10 +34,14 @@ a {
     margin-right: 20px;
 }
 
+
 .one,
-.header {
+.header,
+.top {
     background-color: black;
 }
+
+
 
 .header-logo {
     display: flex;
@@ -44,4 +50,51 @@ a {
 img {
     height: 125px;
     padding: 8px 15px;
+}
+
+.top {
+    color: #e9a800;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+}
+
+.two-title {
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.two {
+    background-color: #e9a800;
+    padding: 25px;
+    gap: 10px;
+}
+
+.rounded {
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 25px;
 }
